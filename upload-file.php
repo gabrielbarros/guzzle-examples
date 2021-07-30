@@ -8,7 +8,7 @@ $client = new Client();
 $image1 = fopen('image1.png', 'r');
 $image2 = fopen('image2.png', 'r');
 
-$url = 'http://localhost/sandbox/http-test.php';
+$url = 'http://localhost/http-request/index.php';
 
 try {
     $response = $client->post($url, [

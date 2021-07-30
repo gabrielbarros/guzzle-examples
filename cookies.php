@@ -6,7 +6,7 @@ use GuzzleHttp\Cookie\CookieJar;
 
 $client = new Client();
 
-$url = 'http://localhost/sandbox/http-test.php';
+$url = 'http://localhost/http-request/index.php';
 
 $domain = 'localhost';
 
