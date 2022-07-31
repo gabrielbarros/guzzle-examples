@@ -5,7 +5,7 @@ use GuzzleHttp\Client;
 
 $client = new Client();
 
-$url = 'http://localhost/http-request/index.php';
+$url = 'http://localhost/sandbox/http-request/index.php';
 
 try {
     $response = $client->delete($url, [

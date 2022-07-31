@@ -7,7 +7,7 @@ $client = new Client();
 
 $binary = file_get_contents('image1.png');
 
-$url = 'http://localhost/http-request/index.php';
+$url = 'http://localhost/sandbox/http-request/index.php';
 
 try {
     $response = $client->post($url, [

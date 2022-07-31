@@ -8,7 +8,7 @@ $password = '12345';
 
 $client = new Client();
 
-$url = 'http://localhost/http-request/index.php';
+$url = 'http://localhost/sandbox/http-request/index.php';
 
 try {
     $response = $client->get($url, [
